@@ -1,0 +1,22 @@
+.bar {
+    padding: 3.85714286em 0;
+}
+
+@media all and (min-width: 991px) {
+    .bar-2 .logo {
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        max-height: 110px;
+        top: -40px;
+    }
+  }
+
+
+
+  .menu-horizontal > li > a, .menu-horizontal > li > .modal-instance > a {
+
+
+    
+  }

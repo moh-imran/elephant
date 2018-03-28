@@ -1,0 +1,25 @@
+<script src="public/js/jquery-3.1.1.min.js"></script>
+<script src="public/js/jquery.routes.js"></script>
+<script src="public/js/flickity.min.js"></script>
+<script src="public/js/easypiechart.min.js"></script>
+<script src="public/js/parallax.js"></script>
+<script src="public/js/typed.min.js"></script>
+<script src="public/js/datepicker.js"></script>
+<script src="public/js/isotope.min.js"></script>
+<script src="public/js/ytplayer.min.js"></script>
+<script src="public/js/lightbox.min.js"></script>
+<script src="public/js/granim.min.js"></script>
+<script src="public/js/jquery.steps.min.js"></script>
+<script src="public/js/countdown.min.js"></script>
+<script src="public/js/twitterfetcher.min.js"></script>
+<script src="public/js/spectragram.min.js"></script>
+<script src="public/js/smooth-scroll.min.js"></script>
+<script src="public/js/scripts.js"></script>
+<script src="public/js/vue/vue.js"></script>
+<script src="public/js/vue/vue-router.js"></script>
+<script src="public/js/vue/vue-resource.js"> </script>
+<script src="public/js/vue/vue-multiselect.min.js"> </script>
+<script src="public/js/vue/news.js"> </script>
+<script src="public/js/vue/social_feeds.js"> </script>
+<script src="public/js/vue/hero_slider.js"> </script>
+

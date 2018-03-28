@@ -1,0 +1,14 @@
+{
+  "require": {
+    "directus/sdk": "0.9.*"
+  },
+
+"minimum-stability": "dev",
+"repositories": [
+
+	{
+	  "type": "git",
+	  "url": "https://github.com/WellingGuzman/zend-db.git"
+	}
+	]
+}

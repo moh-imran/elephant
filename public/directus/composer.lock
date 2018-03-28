@@ -1,0 +1,843 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "531cf4fbd86838af8a3a5a06aa6c3094",
+    "content-hash": "782a10924c96532dda0cf27effa3e93d",
+    "packages": [
+        {
+            "name": "directus/collection",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-collection.git",
+                "reference": "8e53f6ca3d227e9bfc97df92e6a1362cba64d290"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-collection/zipball/8e53f6ca3d227e9bfc97df92e6a1362cba64d290",
+                "reference": "8e53f6ca3d227e9bfc97df92e6a1362cba64d290",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-version/6.4": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Collection\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Collection Library",
+            "keywords": [
+                "collection",
+                "directus"
+            ],
+            "time": "2017-04-30 00:36:48"
+        },
+        {
+            "name": "directus/config",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-config.git",
+                "reference": "948b21dc68ca5ba27da8e6f2ead9ed72a2e88245"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-config/zipball/948b21dc68ca5ba27da8e6f2ead9ed72a2e88245",
+                "reference": "948b21dc68ca5ba27da8e6f2ead9ed72a2e88245",
+                "shasum": ""
+            },
+            "require": {
+                "directus/collection": "^1.0.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-version/6.4": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Config\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Config Library",
+            "keywords": [
+                "config",
+                "directus"
+            ],
+            "time": "2017-09-15 19:28:09"
+        },
+        {
+            "name": "directus/database",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-database.git",
+                "reference": "5d3fecce3b9643fa9c93ecd5d025a08b985efec0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-database/zipball/5d3fecce3b9643fa9c93ecd5d025a08b985efec0",
+                "reference": "5d3fecce3b9643fa9c93ecd5d025a08b985efec0",
+                "shasum": ""
+            },
+            "require": {
+                "directus/collection": "^1.0.0",
+                "php": ">=5.5.0",
+                "zendframework/zend-db": "dev-directus"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-version/6.4": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Database\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Database Component",
+            "keywords": [
+                "database",
+                "directus"
+            ],
+            "time": "2017-09-16 01:50:22"
+        },
+        {
+            "name": "directus/filesystem",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-filesystem.git",
+                "reference": "3ede3fcd71222f92cb31ec8ca3c3f4c2bcf72860"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-filesystem/zipball/3ede3fcd71222f92cb31ec8ca3c3f4c2bcf72860",
+                "reference": "3ede3fcd71222f92cb31ec8ca3c3f4c2bcf72860",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "^1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-d64": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Filesystem Library",
+            "keywords": [
+                "directus",
+                "filesystem"
+            ],
+            "time": "2017-08-30 19:17:10"
+        },
+        {
+            "name": "directus/hash",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-hash.git",
+                "reference": "c068b65a2f400b065f77b301a826f875fcd9abcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-hash/zipball/c068b65a2f400b065f77b301a826f875fcd9abcf",
+                "reference": "c068b65a2f400b065f77b301a826f875fcd9abcf",
+                "shasum": ""
+            },
+            "require": {
+                "directus/utils": "^1.0.0",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-version/6.4": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Hash\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Hash Library",
+            "keywords": [
+                "directus",
+                "hash"
+            ],
+            "time": "2017-09-15 19:28:09"
+        },
+        {
+            "name": "directus/hook",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-hook.git",
+                "reference": "f01e4dd2c409c145bb7ea4597884a44b77a1b072"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-hook/zipball/f01e4dd2c409c145bb7ea4597884a44b77a1b072",
+                "reference": "f01e4dd2c409c145bb7ea4597884a44b77a1b072",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-d64": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Hook\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Hook Library",
+            "keywords": [
+                "HOOK",
+                "directus",
+                "event"
+            ],
+            "time": "2017-04-30 00:36:48"
+        },
+        {
+            "name": "directus/permissions",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-permissions.git",
+                "reference": "890466d013fc2eb7a3be37e62852a85d9ccdc15b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-permissions/zipball/890466d013fc2eb7a3be37e62852a85d9ccdc15b",
+                "reference": "890466d013fc2eb7a3be37e62852a85d9ccdc15b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-d64": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Permissions\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Permissions (ACL) Library",
+            "keywords": [
+                "acl",
+                "directus",
+                "permissions"
+            ],
+            "time": "2017-09-12 19:46:07"
+        },
+        {
+            "name": "directus/sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-sdk-php.git",
+                "reference": "41f369784269e2e4bbcca8d6ccf715a8d6d52429"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-sdk-php/zipball/41f369784269e2e4bbcca8d6ccf715a8d6d52429",
+                "reference": "41f369784269e2e4bbcca8d6ccf715a8d6d52429",
+                "shasum": ""
+            },
+            "require": {
+                "directus/config": "^1.0.0",
+                "directus/database": "^1.0.0",
+                "directus/filesystem": "^1.0.0",
+                "directus/hash": "^1.0.0",
+                "directus/hook": "^1.0.0",
+                "directus/permissions": "^1.0.0",
+                "directus/utils": "^1.0.0",
+                "guzzlehttp/guzzle": "~5.3.0 | ^6.0.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\SDK\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus SDK for PHP",
+            "keywords": [
+                "directus",
+                "sdk"
+            ],
+            "time": "2018-02-17 20:28:28"
+        },
+        {
+            "name": "directus/utils",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/directus/directus-php-utils.git",
+                "reference": "5818a0b241b11b39ab0a196f2ab38332069bcf65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/directus/directus-php-utils/zipball/5818a0b241b11b39ab0a196f2ab38332069bcf65",
+                "reference": "5818a0b241b11b39ab0a196f2ab38332069bcf65",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-d64": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Directus\\Util\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Directus Utils",
+            "keywords": [
+                "directus",
+                "helpers",
+                "utils"
+            ],
+            "time": "2017-08-28 18:38:19"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "ba1bce30baab94dddde21c4ae93872b1762d39fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ba1bce30baab94dddde21c4ae93872b1762d39fa",
+                "reference": "ba1bce30baab94dddde21c4ae93872b1762d39fa",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2018-03-11 15:03:34"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "0940c910fd14a68bd24a8b7c4a5528415a479c42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/0940c910fd14a68bd24a8b7c4a5528415a479c42",
+                "reference": "0940c910fd14a68bd24a8b7c4a5528415a479c42",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2018-02-28 07:24:33"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "649e354b657977c312cb6fb95720b1ac485f2092"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/649e354b657977c312cb6fb95720b1ac485f2092",
+                "reference": "649e354b657977c312cb6fb95720b1ac485f2092",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2018-02-28 07:24:56"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "1ce7cc142d906ba58dc54c82915d355a9191c8a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1ce7cc142d906ba58dc54c82915d355a9191c8a8",
+                "reference": "1ce7cc142d906ba58dc54c82915d355a9191c8a8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "conflict": {
+                "league/flysystem-sftp": "<1.0.6"
+            },
+            "require-dev": {
+                "ext-fileinfo": "*",
+                "phpspec/phpspec": "^3.4",
+                "phpunit/phpunit": "^5.7"
+            },
+            "suggest": {
+                "ext-fileinfo": "Required for MimeType",
+                "ext-ftp": "Allows you to use FTP server storage",
+                "ext-openssl": "Allows you to use FTPS server storage",
+                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
+                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
+                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
+                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
+                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
+                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
+                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
+                "league/flysystem-webdav": "Allows you to use WebDAV storage",
+                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter",
+                "spatie/flysystem-dropbox": "Allows you to use Dropbox storage",
+                "srmklive/flysystem-dropbox-v2": "Allows you to use Dropbox storage for PHP 5 applications"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Filesystem abstraction: Many filesystems, one API.",
+            "keywords": [
+                "Cloud Files",
+                "WebDAV",
+                "abstraction",
+                "aws",
+                "cloud",
+                "copy.com",
+                "dropbox",
+                "file systems",
+                "files",
+                "filesystem",
+                "filesystems",
+                "ftp",
+                "rackspace",
+                "remote",
+                "s3",
+                "sftp",
+                "storage"
+            ],
+            "time": "2018-03-01 10:27:04"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06 14:39:51"
+        },
+        {
+            "name": "zendframework/zend-db",
+            "version": "dev-directus",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WellingGuzman/zend-db.git",
+                "reference": "ffccc5c120476b78887bbddc3401b5368257d7a6"
+            },
+            "require": {
+                "php": "^5.6 || ^7.0",
+                "zendframework/zend-stdlib": "^2.7 || ^3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7.25 || ^6.4.4",
+                "zendframework/zend-coding-standard": "~1.0.0",
+                "zendframework/zend-eventmanager": "^2.6.2 || ^3.0",
+                "zendframework/zend-hydrator": "^1.1 || ^2.1",
+                "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3"
+            },
+            "suggest": {
+                "zendframework/zend-eventmanager": "Zend\\EventManager component",
+                "zendframework/zend-hydrator": "Zend\\Hydrator component for using HydratingResultSets",
+                "zendframework/zend-servicemanager": "Zend\\ServiceManager component"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.9-dev",
+                    "dev-develop": "2.10-dev"
+                },
+                "zf": {
+                    "component": "Zend\\Db",
+                    "config-provider": "Zend\\Db\\ConfigProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Db\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "files": [
+                    "test/autoload.php"
+                ],
+                "psr-4": {
+                    "ZendTest\\Db\\": "test/"
+                }
+            },
+            "scripts": {
+                "check": [
+                    "@cs-check",
+                    "@test"
+                ],
+                "cs-check": [
+                    "phpcs"
+                ],
+                "cs-fix": [
+                    "phpcbf"
+                ],
+                "test": [
+                    "phpunit --colors=always"
+                ],
+                "test-coverage": [
+                    "phpunit --colors=always --coverage-clover clover.xml"
+                ],
+                "upload-coverage": [
+                    "coveralls -v"
+                ]
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Database abstraction layer, SQL abstraction, result set abstraction, and RowDataGateway and TableDataGateway implementations",
+            "keywords": [
+                "db",
+                "zendframework",
+                "zf"
+            ],
+            "support": {
+                "docs": "https://docs.zendframework.com/zend-db/",
+                "issues": "https://github.com/zendframework/zend-db/issues",
+                "source": "https://github.com/zendframework/zend-db",
+                "rss": "https://github.com/zendframework/zend-db/releases.atom",
+                "slack": "https://zendframework-slack.herokuapp.com",
+                "forum": "https://discourse.zendframework.com/c/questions/components"
+            },
+            "time": "2018-01-14 02:42:18"
+        },
+        {
+            "name": "zendframework/zend-stdlib",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-stdlib.git",
+                "reference": "c0404b360fabc8a18a49d9bee0cdd4ba790028ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/c0404b360fabc8a18a49d9bee0cdd4ba790028ef",
+                "reference": "c0404b360fabc8a18a49d9bee0cdd4ba790028ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^0.13",
+                "phpunit/phpunit": "^5.7.21 || ^6.3",
+                "zendframework/zend-coding-standard": "~1.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev",
+                    "dev-develop": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Stdlib\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "homepage": "https://github.com/zendframework/zend-stdlib",
+            "keywords": [
+                "stdlib",
+                "zf2"
+            ],
+            "time": "2017-10-24 18:17:07"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
