@@ -36,4 +36,31 @@ class CommonController extends Controller
 
     }
 
+    public function sendEmail(Request $request){
+
+        $data = $request->validate(
+            [
+
+                'name' => 'required',
+                'email' => 'required | email',
+                'message' => 'required'
+            ]
+        );
+
+        try {
+            $newRequest = $this->client->createItem('contact_us', $data);
+
+            if (isset($newRequest['id'])){
+                //echo 'Message sent successfully.';
+                return 1;
+            }
+            else{
+                echo 'Message could not be sent successfully.';
+            }
+        }
+        catch (\Exception $e) {
+            echo 'Message could not be sent successfully.';
+        }
+    }
+
 }

@@ -20,4 +20,4 @@ Route::get('job-builder', 'JobApplicantsController@index');
 //});
 
 Route::post('build-job', 'JobApplicantsController@postJob');
-
+Route::post('mail', 'CommonController@sendEmail');

@@ -1042,7 +1042,7 @@ mr = (function (mr, $, window, document){
 
                 jQuery.ajax({
                     type: "POST",
-                    url: (formAction !== "" ? formAction : "mail/mail.php"),
+                    url: (formAction !== "" ? formAction : "mail"),
                     data: thisForm.serialize()+"&url="+window.location.href+"&captcha="+captchaUsed,
                     success: function(response) {
                         // Swiftmailer always sends back a number representing number of emails sent.

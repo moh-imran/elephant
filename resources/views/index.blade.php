@@ -122,11 +122,11 @@
                         <p class="lead"> E: <a href="#">hello@elephant-hr.de</a><br>+49 30 585841982</p>
                         <p class="lead"> Haben Sie eine Frage oder möchten Sie mehr darüber erfahren ? Füllen Sie einfach die unten stehenden Felder aus; wir werden dann in Kürze auf Sie zukommen.</p>
                     </div>
-                    <form class="row" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
-                        <div class="col-md-6 col-12"> <label>Name:</label> <input type="text" name="Name" class="validate-required"> </div>
+                    <form class="form-email row" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
+                        <div class="col-md-6 col-12"> <label>Name:</label> <input type="text" name="name" class="validate-required"> </div>
                         <div class="col-md-6 col-12"> <label>Email Addresse:</label> <input type="email" name="email" class="validate-required validate-email"> </div>
-                        <div class="col-md-12 col-12"> <label>Nachricht:</label> <textarea rows="3" name="Message" class="validate-required"></textarea> </div>
-                        <div class="col-md-5 col-lg-4 col-6"> <button  onClick="submitDetailsForm()" type="button" class="btn btn--primary type--uppercase">Senden</button> </div>
+                        <div class="col-md-12 col-12"> <label>Nachricht:</label> <textarea rows="3" name="message" class="validate-required"></textarea> </div>
+                        <div class="col-md-5 col-lg-4 col-6"> <button type="submit" class="btn btn--primary type--uppercase">Senden</button> </div>
                     </form>
                 </div>
             </div>
