@@ -120,12 +120,12 @@ new Vue({
         submit : function() {
 
             // GET /someUrl
-            this.$http.post('/elephant/build-job', this.registration).then(response => {
+            this.$http.post('/dev/build-job', this.registration).then(response => {
 
                 this.success.push('Application sent successfully.');
                 console.log("response", response);
                 setTimeout(
-                    window.location.href = '/elephant'
+                    window.location.href = '/dev'
                     , 10000);
 
         }, response => {
